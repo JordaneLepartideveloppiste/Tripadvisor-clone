@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TripAdvisor-clone</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="left_nav">
+          <div class="logo">
+            <img
+              id="logo"
+              src="./assets/img/ta_logo.png"
+              alt="logo_tripadvisor"
+              width="100%"
+            />
+          </div>
+          <div class="search">
+            <i class="fas fa-search"></i>
+            <input id="search_bar" type="text" />
+          </div>
+        </div>
+        <div class="right_nav">
+          <div class="menu">
+            <div class="item_menu">
+              <i class="fas fa-highlighter"></i><span>Avis</span>
+            </div>
+            <div class="item_menu">
+              <i class="fas fa-heartbeat"></i><span>Voyages</span>
+            </div>
+            <div class="item_menu">
+              <i class="far fa-bell"></i><span>Alertes</span>
+            </div>
+
+            <img src="./assets/img/jordane3.jpg" alt="image_profil" id="moi" />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="first_part container">
+        <span id="explore">Explorer&nbsp</span><span id="panam">Bangkok</span>
+
+        <div class="sous_menu">
+            
+          <div class="item_sous_menu">
+            <span>Hotels</span><i class="fas fa-bed"></i>
+          </div>
+          <div class="item_sous_menu">
+            <span>Locations de vacances</span><i class="fas fa-igloo"></i>
+          </div>
+          <div class="item_sous_menu">
+            <span>Activités</span><i class="fas fa-snowboarding"></i>
+          </div>
+          <div class="item_sous_menu">
+            <span>Restaurants</span><i class="fas fa-utensils"></i>
+          </div>
+          <div class="item_sous_menu">
+            <span>Forum de voyage</span><i class="far fa-comments"></i>
+          </div>
+          <div class="item_sous_menu resp1024">
+            <span>Vols</span><i class="fas fa-fighter-jet"></i>
+          </div>
+          <div class="item_sous_menu resp1024 croise">
+            <span>Croisières</span><i class="fas fa-ship"></i>
+          </div>
+          <div class="item_sous_menu">
+            <span>Plus</span><i class="fas fa-ellipsis-h"></i>
+          </div>
+        </div>
+        <div class="mosaique">
+          <img class="big" src="./assets/img/bang3.jpeg" alt="Paris" />
+          <div class="smalls">
+            <img src="./assets/img/bang1.jpeg" alt="Paris" />
+            <img src="./assets/img/bang2.jpeg" alt="Paris" />
+          </div>
+        </div>
+        <button id="more_photo">
+          <i class="fas fa-image"></i>&nbspToutes les photos
+        </button>
+        <div class="info_article">
+          <div class="info_left">
+            <a href="/">Asie&nbsp</a><span>>&nbsp</span
+            ><a href="/">Thaïlande&nbsp</a><span>>&nbsp</span
+            ><a href="/">Bangkok</a>
+          </div>
+          <div class="info_right">
+            <p>Visiter: Bangkok</p>
+          </div>
+        </div>
+      </div>
+      <div class="second_part container">
+        <div class="description">
+          <span>Une antique ville d'Asie avec un truc en plus.</span>
+          <p>
+            Palais dorés, marchés flottants, temples aux flèches majestueuses… vous n'avez jamais vu une capitale comme Bangkok. Thon Buri abrite l'impressionnant temple Wat Arun, et plus loin, à Phra Nakhon, vous trouverez le Bouddha incliné du temple Wat Pho.  Mais loin d'être restée coincée dans le passé, cette ville vibre de modernité, notamment grâce à sa vie nocturne et ses marchés de rue célèbres dans le monde entier. Régalez-vous de riz gluant à la mangue sur un étal et perdez-vous dans les allées grouillantes de monde.
+          </p>
+        </div>
+        <div class="localisation">
+          <div class="content">
+            <span>Bangkok : commencez à organiser !</span>
+            <p>
+              Créez un voyage pour enregistrer et organiser toutes vos idées et
+              les visualiser sur une carte.
+            </p>
+            <button>Créez un voyage</button>
+          </div>
+          <img id="mapping" src="./assets/img/trip_map.png" alt="" />
+        </div>
+      </div>
+      <div class="third_part container">
+        <span>Bangkok: les immanquables</span>
+        <div class="immanquables">
+          <div class="enjoy">
+            <span id="action">Se divertir</span>
+            <p>
+              Des lieux à voir, des rues à explorer et des expériences
+              emblématiques à Bangkok.
+            </p>
+            <span id="all">Tout afficher</span>
+          </div>
+          <div class="carousel">
+            <div class="card">
+              <img
+                class="img_card"
+                src="./assets/img/divertir1.jpeg"
+                alt="divertissement"
+              />
+              <div class="best">
+                <img
+                  class="choice"
+                  src="./assets/img/icon_2020.png"
+                  alt="best_choice"
+                />
+              </div>
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card_content">
+                <span class="title">Maison de Jim Thompson</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star-half-alt"></i><span>14263</span>
+                </div>
+                <p>
+                  Bâtiments architecturaux, Musées spécialisés
+                </p>
+              </div>
+              </div>
+            <div class="card">
+              <img
+                class="img_card"
+                src="./assets/img/divertir2.jpeg"
+                alt="divertissement"
+              />
+              <div class="best">
+                <img
+                  class="choice"
+                  src="./assets/img/icon_2020.png"
+                  alt="best_choice"
+                />
+              </div>
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card_content">
+                <span class="title">Le parc de Lumpini</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star-half-alt"></i><span>7586</span>
+                </div>
+                <p>
+                  Parcs
+                </p>
+              </div>
+              </div>
+            <div class="card">
+              <img
+                class="img_card"
+                src="./assets/img/divertir3.jpeg"
+                alt="divertissement"
+              />
+              <div class="best">
+                <img
+                  class="choice"
+                  src="./assets/img/icon_2020.png"
+                  alt="best_choice"
+                />
+              </div>
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card_content">
+                <span class="title">Train Night Market</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star-half-alt"></i><span>963</span>
+                </div>
+                <p>
+                  Antiquaires, Marchés aux puces & Marchés de rue
+                </p>
+              </div>
+              </div>
+            <div class="card">
+              <img
+                class="img_card"
+                src="./assets/img/divertir4.jpeg"
+                alt="divertissement"
+              />
+              <div class="best">
+                <img
+                  class="choice"
+                  src="./assets/img/icon_2020.png"
+                  alt="best_choice"
+                />
+              </div>
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card_content">
+                <span class="title">Grand Palais</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star-half-alt"></i><span>35529</span>
+                </div>
+                <p>
+                  Sites historiques
+                </p>
+              </div>
+              </div>
+            <div class="card">
+              <img
+                class="img_card"
+                src="./assets/img/divertir5.jpeg"
+                alt="divertissement"
+              />
+              <div class="best">
+                <img
+                  class="choice"
+                  src="./assets/img/icon_2020.png"
+                  alt="best_choice"
+                />
+              </div>
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card_content">
+                <span class="title">Temple du Bouddha couché (Wat Pho)</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star-half-alt"></i><span>50263</span>
+                </div>
+                <p>
+                  Sites religieux, Monuments & Points d'intérêt
+                </p>
+              </div>
+              </div>
+            <div class="card">
+              <img
+                class="img_card"
+                src="./assets/img/divertir6.jpeg"
+                alt="divertissement"
+              />
+              <div class="best">
+                <img
+                  class="choice"
+                  src="./assets/img/icon_2020.png"
+                  alt="best_choice"
+                />
+              </div>
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card_content">
+                <span class="title">Wat Saket</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star-half-alt"></i><span>5063</span>
+                </div>
+                <p>
+                  Sites religieux, Points de vue panoramiques
+                </p>
+              </div>
+              </div>
+              </div>
+          </div>
+        <div class="immanquables">
+          <div class="enjoy">
+            <span id="action">Se reposer</span>
+            <p>
+              Un mélange de charme, de symboles et de modernité.
+            </p>
+            <span id="all">Tout afficher</span>
+          </div>
+          <div class="carousel">
+            <div class="card">
+              <img
+                class="img_card"
+                src="./assets/img/reposer1.jpeg"
+                alt="repos"
+              />
+              <div class="best">
+                <img
+                  class="choice"
+                  src="./assets/img/icon_2020.png"
+                  alt="best_choice"
+                />
+              </div>
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card_content">
+                <span class="title">The Siam</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star-half-alt"></i><span>906</span>
+                </div>
+              </div>
+              </div>
+            <div class="card">
+              <img
+                class="img_card"
+                src="./assets/img/reposer2.jpeg"
+                alt="repos"
+              />
+              <div class="best">
+                <img
+                  class="choice"
+                  src="./assets/img/icon_2020.png"
+                  alt="best_choice"
+                />
+              </div>
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card_content">
+                <span class="title">The Okura Prestige Bangkok</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star-half-alt"></i><span>3786</span>
+                </div>
+              </div>
+              </div>
+            <div class="card">
+              <img
+                class="img_card"
+                src="./assets/img/reposer3.jpeg"
+                alt="repos"
+              />
+              <div class="best">
+                <img
+                  class="choice"
+                  src="./assets/img/icon_2020.png"
+                  alt="best_choice"
+                />
+              </div>
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card_content">
+                <span class="title">Hotel Muse Bangkok Langsuan, MGallery Collection</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star-half-alt"></i><span>4316</span>
+                </div>
+              </div>
+              </div>
+            <div class="card">
+              <img
+                class="img_card"
+                src="./assets/img/reposer4.jpeg"
+                alt="repos"
+              />
+              <div class="best">
+                <img
+                  class="choice"
+                  src="./assets/img/icon_2020.png"
+                  alt="best_choice"
+                />
+              </div>
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card_content">
+                <span class="title">Hansar Bangkok Hotel</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star-half-alt"></i><span>3271</span>
+                </div>
+              </div>
+              </div>
+            <div class="card">
+              <img
+                class="img_card"
+                src="./assets/img/reposer5.jpeg"
+                alt="repos"
+              />
+              <div class="best">
+                <img
+                  class="choice"
+                  src="./assets/img/icon_2020.png"
+                  alt="best_choice"
+                />
+              </div>
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card_content">
+                <span class="title">The Sukotai Bangkok</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star-half-alt"></i><span>3586</span>
+                </div>
+              </div>
+              </div>
+            <div class="card">
+              <img
+                class="img_card"
+                src="./assets/img/reposer6.jpeg"
+                alt="repos"
+              />
+              <div class="best">
+                <img
+                  class="choice"
+                  src="./assets/img/icon_2020.png"
+                  alt="best_choice"
+                />
+              </div>
+              <div class="heart">
+                <i class="far fa-heart"></i>
+              </div>
+              <div class="card_content">
+                <span class="title">COMO Metropilitan Bangkok</span>
+                <div class="rating">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star-half-alt"></i><span>2320</span>
+                </div>
+              </div>
+              </div>
+
+              </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
